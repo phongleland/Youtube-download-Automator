@@ -1,0 +1,10 @@
+This automator workflow require FFMpeg and MP3 LAME. Instructions on installations can be found here
+http://phongleland.wordpress.com/2010/01/27/extracting-audio-from-youtube/
+
+To Using This Automator Workflow
+
+Enable Applescript in the menu bar by Double-clicking the “Script Menu.menu” file in the /System/Library/CoreServices/MenuExtras folder
+Move the automator file to your ~/Library/Scirpts folder
+
+Questions can be sent to 
+phongleland@gmail.com
