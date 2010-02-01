@@ -47,7 +47,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>on run {input, parameters}	tell application "Firefox"		set myFirefox to properties of front window as list		get item 3 of myFirefox	end tellend run</string>
+					<string>tell application "Firefox" to activatetell application "System Events"	keystroke "l" using {command down} -- Highlight the URL field.	keystroke "c" using {command down}end telldelay 0.5the clipboard</string>
 				</dict>
 				<key>Application</key>
 				<array>
@@ -107,7 +107,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.500000:619.000000</string>
+				<string>302.000000:797.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1592,7 +1592,7 @@ if __name__ == '__main__':
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>309.500000:306.000000</string>
+				<string>302.000000:304.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1705,7 +1705,7 @@ if __name__ == '__main__':
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>309.500000:264.000000</string>
+				<string>302.000000:262.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Pause.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1912,7 +1912,7 @@ if __name__ == '__main__':
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>309.500000:222.000000</string>
+				<string>302.000000:220.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Find Finder Items 2.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -2016,7 +2016,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>309.500000:180.000000</string>
+				<string>302.000000:178.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -2191,7 +2191,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>309.500000:138.000000</string>
+				<string>302.000000:136.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Find iTunes Items 2.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -2304,7 +2304,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>309.500000:96.000000</string>
+				<string>302.000000:94.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Change Case of Song Names.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -2406,7 +2406,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>309.500000:54.000000</string>
+				<string>302.000000:52.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -2416,54 +2416,54 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>34D3D63A-F649-4B9D-A33F-61F1F035AD15</key>
+		<key>19ED07F0-3D00-433B-A25E-4697ECE0ADA7</key>
 		<dict>
 			<key>from</key>
 			<string>39F12380-9568-4DB5-B5C4-AB2A06E68CFD - 39F12380-9568-4DB5-B5C4-AB2A06E68CFD</string>
 			<key>to</key>
 			<string>576AF6D3-76C1-4C3B-9EC9-A025E3542D9B - 576AF6D3-76C1-4C3B-9EC9-A025E3542D9B</string>
 		</dict>
-		<key>54096361-8061-41CD-82A5-B51042AC29D8</key>
+		<key>3A77CDF4-0A62-4FF3-BFF0-29252F8E5529</key>
 		<dict>
 			<key>from</key>
-			<string>576AF6D3-76C1-4C3B-9EC9-A025E3542D9B - 576AF6D3-76C1-4C3B-9EC9-A025E3542D9B</string>
-			<key>to</key>
-			<string>A89923B0-BC3D-4A0A-8CC1-2F1D57055CC1 - A89923B0-BC3D-4A0A-8CC1-2F1D57055CC1</string>
-		</dict>
-		<key>71F23F28-408D-467E-A9EA-312F0B4ACA66</key>
-		<dict>
-			<key>from</key>
-			<string>FB9A68D8-2E1D-426E-9BEA-7B747AE87558 - FB9A68D8-2E1D-426E-9BEA-7B747AE87558</string>
-			<key>to</key>
 			<string>7198C9AA-104F-46A7-BC42-9E1FF17F6B35 - 7198C9AA-104F-46A7-BC42-9E1FF17F6B35</string>
+			<key>to</key>
+			<string>39F12380-9568-4DB5-B5C4-AB2A06E68CFD - 39F12380-9568-4DB5-B5C4-AB2A06E68CFD</string>
 		</dict>
-		<key>89E66385-46DD-4ABC-AED0-8E74AF9F5069</key>
+		<key>6185F2B9-DCBB-4890-9BE4-DD53CBCEFBC9</key>
+		<dict>
+			<key>from</key>
+			<string>49FCC671-C150-4C7B-BC6F-91749C85378E - 49FCC671-C150-4C7B-BC6F-91749C85378E</string>
+			<key>to</key>
+			<string>041F3516-9939-42B7-87CA-DB63DF37372B - 041F3516-9939-42B7-87CA-DB63DF37372B</string>
+		</dict>
+		<key>8D06B9DD-403C-46DE-8EE0-2E91B0FFFC44</key>
 		<dict>
 			<key>from</key>
 			<string>041F3516-9939-42B7-87CA-DB63DF37372B - 041F3516-9939-42B7-87CA-DB63DF37372B</string>
 			<key>to</key>
 			<string>DC9F98FA-E750-4FDD-9FA7-E32EB1889980 - DC9F98FA-E750-4FDD-9FA7-E32EB1889980</string>
 		</dict>
-		<key>993267CD-D0B7-48A4-BE32-88E96C1CEE08</key>
+		<key>C0417F57-6606-4847-8FF2-64BD6866A0DE</key>
+		<dict>
+			<key>from</key>
+			<string>FB9A68D8-2E1D-426E-9BEA-7B747AE87558 - FB9A68D8-2E1D-426E-9BEA-7B747AE87558</string>
+			<key>to</key>
+			<string>7198C9AA-104F-46A7-BC42-9E1FF17F6B35 - 7198C9AA-104F-46A7-BC42-9E1FF17F6B35</string>
+		</dict>
+		<key>D37FD299-47AB-4046-8DEE-AA815667E89B</key>
 		<dict>
 			<key>from</key>
 			<string>A89923B0-BC3D-4A0A-8CC1-2F1D57055CC1 - A89923B0-BC3D-4A0A-8CC1-2F1D57055CC1</string>
 			<key>to</key>
 			<string>49FCC671-C150-4C7B-BC6F-91749C85378E - 49FCC671-C150-4C7B-BC6F-91749C85378E</string>
 		</dict>
-		<key>BA996A80-6716-4ACF-9383-06B91BDE540E</key>
+		<key>ED9741DB-DAB2-4AD7-8E4B-B894938BB0B1</key>
 		<dict>
 			<key>from</key>
-			<string>7198C9AA-104F-46A7-BC42-9E1FF17F6B35 - 7198C9AA-104F-46A7-BC42-9E1FF17F6B35</string>
+			<string>576AF6D3-76C1-4C3B-9EC9-A025E3542D9B - 576AF6D3-76C1-4C3B-9EC9-A025E3542D9B</string>
 			<key>to</key>
-			<string>39F12380-9568-4DB5-B5C4-AB2A06E68CFD - 39F12380-9568-4DB5-B5C4-AB2A06E68CFD</string>
-		</dict>
-		<key>F6555B38-9A39-4B48-9152-DD3FC8D22C62</key>
-		<dict>
-			<key>from</key>
-			<string>49FCC671-C150-4C7B-BC6F-91749C85378E - 49FCC671-C150-4C7B-BC6F-91749C85378E</string>
-			<key>to</key>
-			<string>041F3516-9939-42B7-87CA-DB63DF37372B - 041F3516-9939-42B7-87CA-DB63DF37372B</string>
+			<string>A89923B0-BC3D-4A0A-8CC1-2F1D57055CC1 - A89923B0-BC3D-4A0A-8CC1-2F1D57055CC1</string>
 		</dict>
 	</dict>
 	<key>state</key>
@@ -2534,9 +2534,9 @@ end run</string>
 			</array>
 		</dict>
 		<key>windowFrame</key>
-		<string>{{196, 168}, {1000, 877}}</string>
+		<string>{{616, 166}, {1000, 877}}</string>
 		<key>workflowViewScrollPosition</key>
-		<string>{{0, 0}, {619, 609}}</string>
+		<string>{{0, 178}, {604, 609}}</string>
 	</dict>
 	<key>workflowMetaData</key>
 	<dict>
