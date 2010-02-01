@@ -47,7 +47,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>tell application "Firefox" to activatetell application "System Events"	keystroke "l" using {command down} -- Highlight the URL field.	keystroke "c" using {command down}end telldelay 0.5the clipboard</string>
+					<string>tell application "Firefox" to activatetell application "System Events"	keystroke "l" using {command down} -- Highlight the URL field.	keystroke "c" using {command down}end telldelay 1the clipboard</string>
 				</dict>
 				<key>Application</key>
 				<array>
