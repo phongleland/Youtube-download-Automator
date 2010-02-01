@@ -47,7 +47,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>tell application "Firefox" to activatetell application "System Events"	keystroke "l" using {command down} -- Highlight the URL field.	keystroke "c" using {command down}end telldelay 1the clipboard</string>
+					<string>tell application "Firefox" to activatetell application "System Events"	keystroke "l" using {command down} -- Highlight the URL field.	keystroke "c" using {command down}end telldelay 0.5the clipboard</string>
 				</dict>
 				<key>Application</key>
 				<array>
@@ -68,7 +68,7 @@
 				<key>Class Name</key>
 				<string>RunScriptAction</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>InputUUID</key>
 				<string>17AFE0CA-A532-4357-8EF8-753F8CA4E280</string>
 				<key>Keywords</key>
@@ -105,14 +105,14 @@ end run</string>
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<true/>
+				<false/>
 				<key>location</key>
-				<string>302.000000:797.000000</string>
+				<string>302.000000:1495.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -1502,7 +1502,7 @@ if __name__ == '__main__':
 				<key>Class Name</key>
 				<string>RunShellScriptAction</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>InputUUID</key>
 				<string>8A405B2E-454E-49AF-9E7C-550B43EAB9EC</string>
 				<key>Keywords</key>
@@ -1592,7 +1592,7 @@ if __name__ == '__main__':
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>302.000000:304.000000</string>
+				<string>302.000000:1453.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1657,7 +1657,7 @@ if __name__ == '__main__':
 				<key>Class Name</key>
 				<string>PauseAction</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>InputUUID</key>
 				<string>1FEDDCA8-9F43-4644-A1A7-33F7DA229190</string>
 				<key>Keywords</key>
@@ -1705,7 +1705,7 @@ if __name__ == '__main__':
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>302.000000:262.000000</string>
+				<string>302.000000:1411.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Pause.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1811,7 +1811,7 @@ if __name__ == '__main__':
 					GHN0G3aAGYAegBeAINUeHwsgISJ4JCV7gBqA
 					DYAGgBtcdmFsdWVGb3JLZXk60gsQM3+ADKGA
 					gBzTNx4Lgjk6gB2AC11maWxlRXh0ZW5zaW9u
-					0x5MC02GT4AfgBNTbXA01GJjC4qLTYwiV05T
+					0x5MC02GT4AfgBNTbXAz1GJjC4qLTYwiV05T
 					RmxhZ3MQY4Ah0issjo9fEBVOU0luUHJlZGlj
 					YXRlT3BlcmF0b3KjkJExXxAVTlNJblByZWRp
 					Y2F0ZU9wZXJhdG9yXxATTlNQcmVkaWNhdGVP
@@ -1854,6 +1854,8 @@ if __name__ == '__main__':
 				</array>
 				<key>Class Name</key>
 				<string>Find_Finder_Items_2</string>
+				<key>Disabled</key>
+				<false/>
 				<key>InputUUID</key>
 				<string>31A8BBA3-33D5-4AB8-BCF5-5BCD86228299</string>
 				<key>Keywords</key>
@@ -1910,14 +1912,14 @@ if __name__ == '__main__':
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<false/>
+				<true/>
 				<key>location</key>
-				<string>302.000000:220.000000</string>
+				<string>302.000000:1369.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Find Finder Items 2.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -2014,14 +2016,14 @@ end run</string>
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<false/>
+				<true/>
 				<key>location</key>
-				<string>302.000000:178.000000</string>
+				<string>302.000000:964.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -2146,6 +2148,8 @@ end run</string>
 				</array>
 				<key>Class Name</key>
 				<string>Find_iTunes_Items_2</string>
+				<key>Disabled</key>
+				<false/>
 				<key>InputUUID</key>
 				<string>F641280B-6AAC-42ED-9286-84A452266503</string>
 				<key>Keywords</key>
@@ -2189,14 +2193,14 @@ end run</string>
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<false/>
+				<true/>
 				<key>location</key>
-				<string>302.000000:136.000000</string>
+				<string>302.000000:651.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Find iTunes Items 2.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -2268,6 +2272,8 @@ end run</string>
 				</array>
 				<key>Class Name</key>
 				<string>AMAppleScriptAction</string>
+				<key>Disabled</key>
+				<false/>
 				<key>InputUUID</key>
 				<string>D3E90AE5-AE86-42FB-87EC-098F80CCA53E</string>
 				<key>Keywords</key>
@@ -2302,14 +2308,14 @@ end run</string>
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<false/>
+				<true/>
 				<key>location</key>
-				<string>302.000000:94.000000</string>
+				<string>302.000000:426.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Change Case of Song Names.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -2368,6 +2374,8 @@ end run</string>
 				</array>
 				<key>Class Name</key>
 				<string>RunScriptAction</string>
+				<key>Disabled</key>
+				<false/>
 				<key>InputUUID</key>
 				<string>A1B3507A-69F2-4FEF-AF54-F6A13B76336A</string>
 				<key>Keywords</key>
@@ -2404,66 +2412,66 @@ end run</string>
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<false/>
+				<true/>
 				<key>location</key>
-				<string>302.000000:52.000000</string>
+				<string>302.000000:323.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<false/>
+			<true/>
 		</dict>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>19ED07F0-3D00-433B-A25E-4697ECE0ADA7</key>
+		<key>03B1E05E-8400-4E55-915B-26540BEA63E3</key>
 		<dict>
 			<key>from</key>
-			<string>39F12380-9568-4DB5-B5C4-AB2A06E68CFD - 39F12380-9568-4DB5-B5C4-AB2A06E68CFD</string>
+			<string>A89923B0-BC3D-4A0A-8CC1-2F1D57055CC1 - A89923B0-BC3D-4A0A-8CC1-2F1D57055CC1</string>
 			<key>to</key>
-			<string>576AF6D3-76C1-4C3B-9EC9-A025E3542D9B - 576AF6D3-76C1-4C3B-9EC9-A025E3542D9B</string>
-		</dict>
-		<key>3A77CDF4-0A62-4FF3-BFF0-29252F8E5529</key>
-		<dict>
-			<key>from</key>
-			<string>7198C9AA-104F-46A7-BC42-9E1FF17F6B35 - 7198C9AA-104F-46A7-BC42-9E1FF17F6B35</string>
-			<key>to</key>
-			<string>39F12380-9568-4DB5-B5C4-AB2A06E68CFD - 39F12380-9568-4DB5-B5C4-AB2A06E68CFD</string>
-		</dict>
-		<key>6185F2B9-DCBB-4890-9BE4-DD53CBCEFBC9</key>
-		<dict>
-			<key>from</key>
 			<string>49FCC671-C150-4C7B-BC6F-91749C85378E - 49FCC671-C150-4C7B-BC6F-91749C85378E</string>
-			<key>to</key>
-			<string>041F3516-9939-42B7-87CA-DB63DF37372B - 041F3516-9939-42B7-87CA-DB63DF37372B</string>
 		</dict>
-		<key>8D06B9DD-403C-46DE-8EE0-2E91B0FFFC44</key>
+		<key>53FE551B-3DF9-495F-A060-E9E67705FAFF</key>
+		<dict>
+			<key>from</key>
+			<string>576AF6D3-76C1-4C3B-9EC9-A025E3542D9B - 576AF6D3-76C1-4C3B-9EC9-A025E3542D9B</string>
+			<key>to</key>
+			<string>A89923B0-BC3D-4A0A-8CC1-2F1D57055CC1 - A89923B0-BC3D-4A0A-8CC1-2F1D57055CC1</string>
+		</dict>
+		<key>59EB0730-BCF5-4D6C-8B14-C738E3F1AF95</key>
 		<dict>
 			<key>from</key>
 			<string>041F3516-9939-42B7-87CA-DB63DF37372B - 041F3516-9939-42B7-87CA-DB63DF37372B</string>
 			<key>to</key>
 			<string>DC9F98FA-E750-4FDD-9FA7-E32EB1889980 - DC9F98FA-E750-4FDD-9FA7-E32EB1889980</string>
 		</dict>
-		<key>C0417F57-6606-4847-8FF2-64BD6866A0DE</key>
+		<key>7100A4A5-CDD7-4CA2-A843-21C485BFBC9A</key>
+		<dict>
+			<key>from</key>
+			<string>39F12380-9568-4DB5-B5C4-AB2A06E68CFD - 39F12380-9568-4DB5-B5C4-AB2A06E68CFD</string>
+			<key>to</key>
+			<string>576AF6D3-76C1-4C3B-9EC9-A025E3542D9B - 576AF6D3-76C1-4C3B-9EC9-A025E3542D9B</string>
+		</dict>
+		<key>9BFFE8FD-8609-478B-9438-084AF0E076BE</key>
+		<dict>
+			<key>from</key>
+			<string>7198C9AA-104F-46A7-BC42-9E1FF17F6B35 - 7198C9AA-104F-46A7-BC42-9E1FF17F6B35</string>
+			<key>to</key>
+			<string>39F12380-9568-4DB5-B5C4-AB2A06E68CFD - 39F12380-9568-4DB5-B5C4-AB2A06E68CFD</string>
+		</dict>
+		<key>BC7FF7CD-317B-452F-AD6E-E448F5E700E7</key>
 		<dict>
 			<key>from</key>
 			<string>FB9A68D8-2E1D-426E-9BEA-7B747AE87558 - FB9A68D8-2E1D-426E-9BEA-7B747AE87558</string>
 			<key>to</key>
 			<string>7198C9AA-104F-46A7-BC42-9E1FF17F6B35 - 7198C9AA-104F-46A7-BC42-9E1FF17F6B35</string>
 		</dict>
-		<key>D37FD299-47AB-4046-8DEE-AA815667E89B</key>
+		<key>CA282B58-84A0-49FE-B562-6AC57B6F5492</key>
 		<dict>
 			<key>from</key>
-			<string>A89923B0-BC3D-4A0A-8CC1-2F1D57055CC1 - A89923B0-BC3D-4A0A-8CC1-2F1D57055CC1</string>
-			<key>to</key>
 			<string>49FCC671-C150-4C7B-BC6F-91749C85378E - 49FCC671-C150-4C7B-BC6F-91749C85378E</string>
-		</dict>
-		<key>ED9741DB-DAB2-4AD7-8E4B-B894938BB0B1</key>
-		<dict>
-			<key>from</key>
-			<string>576AF6D3-76C1-4C3B-9EC9-A025E3542D9B - 576AF6D3-76C1-4C3B-9EC9-A025E3542D9B</string>
 			<key>to</key>
-			<string>A89923B0-BC3D-4A0A-8CC1-2F1D57055CC1 - A89923B0-BC3D-4A0A-8CC1-2F1D57055CC1</string>
+			<string>041F3516-9939-42B7-87CA-DB63DF37372B - 041F3516-9939-42B7-87CA-DB63DF37372B</string>
 		</dict>
 	</dict>
 	<key>state</key>
@@ -2534,9 +2542,9 @@ end run</string>
 			</array>
 		</dict>
 		<key>windowFrame</key>
-		<string>{{616, 166}, {1000, 877}}</string>
+		<string>{{201, 147}, {1000, 877}}</string>
 		<key>workflowViewScrollPosition</key>
-		<string>{{0, 178}, {604, 609}}</string>
+		<string>{{0, 0}, {604, 609}}</string>
 	</dict>
 	<key>workflowMetaData</key>
 	<dict>
